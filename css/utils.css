@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Josefin Sans', sans-serif;
+    --font1: 'Poppins', sans-serif;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 80vw;
+}
+
+.mar-auto {
+    margin: auto;
+}
+
+.font-1 {
+    font-family: var(--font1);
+}
+
+.font-2 {
+    font-family: var(--font2);
+}
+
+.btn {
+
+    padding: 0px 20px;
+    font-size: 12px;
+    border: 2px solid rgb(73, 105, 209);
+    border-radius: 15px;
+    font-family: var(--font1);
+    cursor: pointer;
+    padding-top: 2px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: blueviolet;
+
+}
+
+
+.input-form {
+    padding: 3px 5px;
+    font-size: 15px;
+    border: 2px solid rgb(73, 105, 209);
+    border-radius: 4px;
+    font-family: var(--font1);
+    margin: 0 13px;
+}
+.form-box input,textarea{
+    width: 34vw;
+    padding: 0 6px;
+    margin: 6px;
+    font-size: 12px;
+    font-family: var(--font1);
+    border: 2px solid orchid;
+    border-radius: 5px;
+
+}

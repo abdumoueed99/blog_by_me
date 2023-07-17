@@ -1,0 +1,43 @@
+@media screen and (max-width: 1300px) {
+    
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+    .nav-lef{
+        
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right{
+        display: none;
+    }
+    home-article{
+        flex-direction: column;
+    }
+    home-article img{
+        text-align: center;
+        width: 60vw;
+    }
+    .year-box {
+
+        position: absolute;
+        /* background-color: red; */
+        
+
+        top: 23px;
+        
+        display: flex;
+        font-size: 11px;
+    }
+    .year-box div{
+        margin: 0;
+        padding: 0 4px;
+    }
+    .form-input {
+        width: 50%;
+    }
+    .row{
+        flex-direction: column;
+    }
+}

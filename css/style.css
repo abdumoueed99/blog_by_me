@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+
+    margin-top: 46px;
+
+    /* control ? used for comments */
+    font-family: var(--font1);
+    /* background-color: red; */
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.nav-left {
+    font-size: 30px;
+    display: flex;
+}
+
+.nav-left ul {
+
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 78px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.nav-left ul li:hover {
+    font-weight: bolder;
+    color: blueviolet
+}
+
+
+
+.content-left {
+    font-family: var(--font1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px;
+    z-index: 1;
+}
+
+.content-right {
+    font-family: var(--font2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-right img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(73, 105, 209);
+    border-radius: 200px;
+    margin-left: 33px;
+
+}
+
+.content {
+    /* background-color: rgb(172, 172, 219); */
+    height: 100%;
+    display: flex;
+
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+
+
+}
+
+.content-left p {
+    margin-top: 23px;
+}
+
+.content::after {
+    content: "";
+    background-image: url(../pics/vecteezy_creative-web-and-blog-article-developer_.jpg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.17;
+    border-radius: 12px;
+
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.home-articles {
+    padding: 18px;
+    margin-top: 23px;
+    position: relative;
+    /* background-color: aqua; */
+
+}
+
+.year-box {
+
+    position: absolute;
+    /* background-color: red; */
+    width: 150px;
+    height: 143px;
+    top: 78px;
+    right: 100px;
+}
+
+.year-box {
+    right: 0;
+    top: 100px;
+    position: relative;
+    width: 234px;
+    height: 255px;
+    font-family: var(--font1);
+    font-size: 18px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+}
+
+.home-article img {
+    width: 194px;
+
+}
+
+.home-article-content h2 {
+    text-align: center;
+    font-size: small;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0 26px;
+}
+
+
+.footer {
+    background-color: brown;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    display: flex;
+}

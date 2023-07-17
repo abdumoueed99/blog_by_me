@@ -1,0 +1,23 @@
+.contact-content{
+        /* background-color: rgb(172, 172, 219); */
+        
+        height: 100vh;
+        display: flex;
+        margin-top: 32px;
+        padding: 9px;
+        position: relative;
+        overflow: hidden;
+
+}
+.contact-content::after {
+    content: "";
+    background-image: url(../pics/vecteezy_creative-web-and-blog-article-developer_.jpg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.17;
+    border-radius: 12px;
+    z-index: -1;
+
+}
